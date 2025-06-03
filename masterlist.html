@@ -12,7 +12,7 @@
     <!-- ----------------------------------------------------------------- -->
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <title>Reaches of Space</title>
-    <meta property="title" content="Charadex" />
+    <meta property="title" content="Reaches of Space" />
     <meta property="type" content="website" />
     <meta property="url" content="https://www.charadex.com/" />
     <meta property="image" content="assets/meta.png" />
@@ -50,7 +50,7 @@
 </head>
 
 <body>
-
+<div id="stars-bg">
 
     <!-- --------------------------------------------------------------------
     <-- Header
@@ -77,7 +77,7 @@
             ----------------------------------------------------------------- -->
             <div class="card p-md-5 p-4 mb-4">
 
-                <h3 class="mb-0"><a href="masterlist.html">Species Masterlist</a></h3>
+                <h3 class="mb-0"><a href="masterlist.html">Masterlist</a></h3>
 
                 <!-- Faux Folders
                 <-- Remove this if you'd like to make your own buttons instead!
@@ -209,6 +209,12 @@
 
                             <!-- Item -->
                             <div class="d-flex justify-content-between mb-2">
+                                <b class="text-muted">Name</b>
+                                <span class="name"></span>
+                            </div>
+                            
+                            <!-- Item -->
+                            <div class="d-flex justify-content-between mb-2">
                                 <b class="text-muted">Owner</b>
                                 <span class="owner"></span>
                             </div>
@@ -230,7 +236,7 @@
                             <!-- Item -->
                             <div class="d-flex justify-content-between mb-2">
                                 <b class="text-muted">Species</b>
-                                <span class="species"></span>
+                                <span class="species"></span><span class="subspecies"></span>
                             </div>
 
                             <!-- Item -->
@@ -248,7 +254,7 @@
                             <!-- Item -->
                             <div class="d-flex justify-content-between mb-2">
                                 <b class="text-muted">Value</b>
-                                <span>$<span class="value"></span></span>
+                                <span class="value"></span>
                             </div>
 
                             <!-- Item -->
@@ -294,15 +300,14 @@
 
                     <!-- Where to Update -->
                     <div class="card bg-faded py-2 px-3 mt-3 small text-center">
-                        <b>If you need to update this entry, please do so on the discord.</b>
+                        <b>If you need to update this entry, please do so <a href="">here</a>.</b>
                     </div>
                 </div>
             </div>
         </li>
 
 
-    </div>
-
+    </div></div>
     <!-- ----------------------------------------------------------------- -->
     <!-- JS                                                                -->
     <!-- ----------------------------------------------------------------- -->
