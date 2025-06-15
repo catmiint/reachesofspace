@@ -2,7 +2,7 @@
 /* Sheet ID
 /* Your sheet ID
 /* ------------------------------------------------------------------- */
-let sheetID = "1g_zPog6yEcclgrDD0sJQSnZlu1l4gWxyyoOuUVMm2cQ";
+let sheetID = "1PGUw5pDs4zwqnjwXZoxc5F7HsMEg9rqwsTsEnkFUbrs";
 
 
 /* ------------------------------------------------------------------- */
@@ -52,11 +52,11 @@ let options = {
         sheetPage: sheetPages.masterlist,
         logSheetPage: sheetPages.masterlistLog,
 
-        itemAmount: 14,
+        itemAmount: 12,
         itemOrder: "asc",
 
         filterColumn: 'Design Type',
-        searchFilterParams: ['ID', 'Name', 'Owner', 'Designer', 'Artist', 'Subspecies'],
+        searchFilterParams: ['ID', 'Name', 'Owner', 'Designer', 'Artist', 'Subspecies','Basics','Hoard','Gummi','Mutations'],
         fauxFolderColumn: 'Species', 
 
     },

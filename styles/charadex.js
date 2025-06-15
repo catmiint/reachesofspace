@@ -3,7 +3,7 @@
 ======================================================================= */
 let url = new URL(window.location.href);
 let baseURL = window.location.origin + window.location.pathname;
-let folderURL = window.location.origin + '/' + window.location.pathname.replace(/\/[^\/]+$/, "");
+let folderURL = window.location.origin + window.location.pathname.replace(/\/[^\/]+$/, "");
 let urlParams = new URLSearchParams(window.location.search);
 
 
@@ -265,6 +265,7 @@ let fauxFolderButtons = (array, fauxFolder, params = urlParams) => {
 
     }
 
+
     // Filters out information based on URL parameters
     if (params.has(fauxFolder) && fauxFolder) {
         return array.filter((i) => i[fauxFolder].toLowerCase() === params.get(fauxFolder).toLowerCase());
@@ -273,7 +274,6 @@ let fauxFolderButtons = (array, fauxFolder, params = urlParams) => {
     }
 
 };
-
 
 
 
@@ -328,11 +328,9 @@ const charadexLarge = async (options) => {
     // Grab all our url info
     let cardKey = Object.keys(sheetArray[0])[0];
     let preParam = urlParamFix(cardKey, charadexInfo.fauxFolderColumn);
-
     // Create faux folders
     // Filter through array based on folders
     if (charadexInfo.fauxFolderColumn) sheetArray = fauxFolderButtons(sheetArray, charadexInfo.fauxFolderColumn);
-
     // Reverse based on preference
     charadexInfo.itemOrder == 'asc' ? sheetArray.reverse() : '';
 
@@ -431,7 +429,6 @@ const masterlist = async (options) => {
     let cardKeyAlt = Object.keys(sheetArray[0])[0];
 
     let preParam = urlParamFix(cardKey, charadexInfo.fauxFolderColumn);
-
     // Create faux folders
     // Filter through array based on folders
     if (charadexInfo.fauxFolderColumn) sheetArray = fauxFolderButtons(sheetArray, charadexInfo.fauxFolderColumn);
@@ -444,6 +441,7 @@ const masterlist = async (options) => {
         sheetArray[i].cardlink = baseURL + preParam + sheetArray[i][cardKey]; 
         sheetArray[i].cardlinkalt = baseURL + urlParamFix(cardKeyAlt, charadexInfo.fauxFolderColumn) + sheetArray[i][Object.keys(sheetArray[0])[0]]; 
     }
+
 
     // Decide if the url points to profile or entire gallery
     if (urlParams.has(cardKey) || urlParams.has(cardKeyAlt)) {
@@ -663,7 +661,7 @@ const frontPage = (options) => {
                 let indexEvents = newestEvents.slice(0, charadexInfo.numOfPrompts);
     
                 // Add card link
-                for (var i in indexEvents) { indexEvents[i].cardlink = folderURL + "prompts.html?" + cardKey + "=" + indexEvents[i][cardKey]; }
+                for (var i in indexEvents) { indexEvents[i].cardlink = folderURL + "/prompts.html?" + cardKey + "=" + indexEvents[i][cardKey]; }
     
                 // Nyoom
                 let galleryOptions = {
@@ -719,7 +717,7 @@ const frontPage = (options) => {
 
                 // Add cardlink
                 let cardKey = Object.keys(selectDesigns[0])[0];
-                for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "masterlist.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
+                for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "/masterlist.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
 
                 // Nyoom
                 let galleryOptions = {
