@@ -674,7 +674,6 @@ p:last-child {
 		margin-top: 10%;
 	}
 }
-.navbar-collapse .navbar-nav {
+.navbar .navbar-nav .nav-link {
 	background-color: var(--cd-card-background-color) !important;
-	width: 100%
 }
