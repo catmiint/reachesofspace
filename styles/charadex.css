@@ -254,7 +254,6 @@ a:active {
   font-family: var(--cd-navbar-font-family) !important;
   z-index: 2000;
   height: 145px;
-  margin-bottom: 20px;
 }
 
 .navbar .navbar-brand {
@@ -264,7 +263,7 @@ a:active {
 
 .navbar-brand img {
   max-width: 500px;
-  width: 50%
+  width: 50%;
   position: absolute;
   top: 0px;
 }
