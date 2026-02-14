@@ -657,6 +657,10 @@ p:last-child {
     font-weight: 800;
     font-size: 2.5rem;
 }
+.hero-title .m-auto {
+filter: drop-shadow(2px 4px 6px black);
+    text-align: center;
+}
 
 @media (min-width: 768px) {
     .hero-title {
