@@ -676,4 +676,5 @@ p:last-child {
 }
 .navbar .navbar-nav .nav-link {
 	background-color: var(--cd-card-background-color) !important;
+	padding-left: 20px;
 }
