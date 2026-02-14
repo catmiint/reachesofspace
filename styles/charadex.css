@@ -264,8 +264,8 @@ a:active {
 .navbar-brand img {
   max-width: 500px;
   width: 50%;
-  position: absolute;
   top: 0px;
+  position: absolute;
 }
 
 .navbar .navbar-brand:hover, 
@@ -674,6 +674,7 @@ p:last-child {
 		margin-top: 10%;
 	}
 }
-.navbar-collapse {
+.navbar-collapse .navbar-nav {
 	background-color: var(--cd-card-background-color) !important;
+	width: 100%
 }
