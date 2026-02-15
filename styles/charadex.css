@@ -678,7 +678,7 @@ filter: drop-shadow(2px 4px 6px black);
 		margin-top: 10%;
 	}
 }
-.navbar .navbar-nav .nav-link {
+.nav-item.dropdown .nav-link {
 	background-color: var(--cd-card-background-color) !important;
 	padding-left: 20px;
 }
