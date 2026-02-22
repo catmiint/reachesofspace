@@ -514,6 +514,10 @@ a.badge.badge-primary:active  {
   color: var(--cd-primary-text-color) !important;
 }
 
+.text-secondary {
+	color: var(--cd-secondary-color) !important;
+}
+
 .bg-faded {
   background-color: var(--cd-faded-background-color) !important;
 }
@@ -677,8 +681,8 @@ filter: drop-shadow(2px 4px 6px black);
 	.navbar-brand img {
 		margin-top: 10%;
 	}
-}
-.nav-item.dropdown .nav-link {
+	.nav-item.dropdown .nav-link {
 	background-color: var(--cd-card-background-color) !important;
 	padding-left: 20px;
+	}
 }
