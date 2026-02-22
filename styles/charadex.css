@@ -681,8 +681,9 @@ filter: drop-shadow(2px 4px 6px black);
 	.navbar-brand img {
 		margin-top: 10%;
 	}
-	.nav-item.dropdown .nav-link {
-	background-color: var(--cd-card-background-color) !important;
-	padding-left: 20px;
+	.navbar-nav {
+		margin-top: 12px;
+		background-color: var(--cd-card-background-color) !important;
+		padding-left: 20px;
 	}
 }
