@@ -77,6 +77,20 @@ let options = {
     
     },
 
+        /* Badge Catalogue
+    /* --------------------------------------------------------------- */
+    badges: {
+
+        sheetPage: sheetPages.badges,
+    
+        itemAmount: 24,
+        itemOrder: "asc",
+    
+        filterColumn: 'Source',
+        searchFilterParams: ['Badge'],
+        fauxFolderColumn: 'Type',
+    
+    },
 
     /* Invetory
     /* --------------------------------------------------------------- */
