@@ -15,6 +15,7 @@ let sheetPages = {
     inventory: "inventory",
     inventoryLog: "inventory log",
     items: "items",
+    badges: "badges",
     traits: "traits",
     prompts: "prompts",
     faq: "faq",
