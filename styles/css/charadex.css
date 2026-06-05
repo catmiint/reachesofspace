@@ -1,0 +1,1085 @@
+body {
+
+  /* ============================================================= */
+  /*
+  /* Main Styles
+  /*
+  /* ============================================================= */
+  /* 
+  /* This only styles the elements shown on the page.
+  /* 
+  /* Some CSS knowledge is going to be needed to style these
+  /* elements further. If you're just looking for a swatch and
+  /* font swap, then you'll only need to edit the variables below.
+  /*
+  /* ============================================================= */
+  /* Primary Color
+  ================================================================ */
+  --cd-primary-color:                    #480944eb;
+  --cd-primary-text-color:               #70b6ff;
+
+  /* ============================================================= */
+  /* Secondary Color
+  ================================================================ */
+  --cd-secondary-color:                  #f95dff;
+  --cd-secondary-text-color:            #d185ffcf;
+
+  /* ============================================================= */
+  /* Backgrounds
+  ================================================================ */
+  --cd-body-background-color:            var(--cd-primary-color);
+  --cd-content-background-color:         rgba(3,5,32,0.8);
+  --cd-faded-background-color:           rgba(80,15,52, 0.24);
+
+  /* Background Extras */
+  --cd-body-background-image: url(https://media.tenor.com/TZaIBNauQfAAAAAM/stars-galaxy.gif);
+
+   /* ============================================================= */
+  /* Text
+  ================================================================ */
+  --cd-body-text-color:                  rgb(228 134 229);
+  --cd-faded-text-color:                 #70b6ffe8;
+
+  /* ============================================================= */
+  /* Borders
+  ================================================================ */
+  --cd-border-color:                     hsla(60,29%,97%,.125);
+  --cd-border-width:                     1px;
+  --cd-border-style:                     solid;
+  --cd-border-radius:                    15px;
+
+  /* ============================================================= */
+  /* Navbar
+  ================================================================ */
+  --cd-navbar-background-color: linear-gradient(-45deg, #092948d4, #0c0948ad, #2d0948b0, #480944b0) fixed !important;
+  --cd-navbar-brand-color: var(--cd-primary-color);
+  --cd-navbar-brand-color-hover: var(--cd-secondary-color);
+  --cd-navbar-text-color: rgb(228 134 229);
+  --cd-navbar-link-color: var(--cd-navbar-text-color);
+  --cd-navbar-link-color-hover: rgb(175 149 251);
+  --cd-navbar-font-family: var(--cd-header-font-family);
+
+  /* ============================================================= */
+  /* Main Fonts
+  ================================================================ */
+  --cd-body-font-family: 'Montserrat', sans-serif;
+  --cd-header-font-family: 'Comfortaa', sans-serif;
+  
+  /* ============================================================= */
+  /* Rarities
+  ================================================================ */
+
+  --cd-rarity-common-bg: #35FBE8;
+  --cd-rarity-common-txt: #180928;
+
+  --cd-rarity-uncommon-bg: #1070FE;
+  --cd-rarity-uncommon-txt: var(--cd-rarity-common-txt);
+  
+  --cd-rarity-rare-bg: #FE11B5;
+  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-mythic-bg: #B311FF;
+  --cd-rarity-mythic-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-ascended-bg: #05DC79;
+  --cd-rarity-ascended-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-seasonal-alignmenttide-bg: #AFDBF7;
+  --cd-rarity-seasonal-alignmenttide-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-seasonal-bloomfaire-bg: #ABEF9A;
+  --cd-rarity-seasonal-bloomfaire-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-seasonal-universalgala-bg: #E0C7FF;
+  --cd-rarity-seasonal-universalgala-txt: var(--cd-rarity-common-txt);
+
+  --cd-rarity-seasonal-bonbonival-bg: #FF84DA;
+  --cd-rarity-seasonal-bonbonival-txt: var(--cd-rarity-common-txt);
+   /* ============================================================= */
+  /* Types
+  ================================================================ */
+
+  --cd-type-currency-bg: #8D169D;
+  --cd-type-currency-txt: #180928;
+
+  --cd-type-konpeito-bg: #D431A3;
+  --cd-type-konpeito-txt: var(--cd-type-currency-txt);
+  
+  --cd-type-othercandy-bg: #3F86D0;
+  --cd-type-othercandy-txt: var(--cd-type-currency-txt);
+
+  --cd-type-ingredient-bg: #6492F2;
+  --cd-type-ingredient-txt: var(--cd-type-currency-txt);
+
+  --cd-type-misc-bg: #FEBA00;
+  --cd-type-misc-txt: var(--cd-type-currency-txt);
+
+
+  /* ============================================================= */
+  /*
+  /* Optional Styles
+  /* These are just for extra easy styling
+  /*
+  /* ============================================================= */
+  /* Navbar Dropdown 
+  ================================================================ */
+
+  /* Background */
+  --cd-navbar-dropdown-background-color: var(--cd-navbar-background-color);
+  --cd-navbar-dropdown-background-hover: var(--cd-primary-color);
+
+  /* Link/Text */
+  --cd-navbar-dropdown-link-color: var(--cd-navbar-link-color);
+  --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
+
+  /* Divider */
+  --cd-navbar-dropdown-divider:          #f95dff5c;
+  --cd-navbar-dropdown-border-radius: 0 0 var(--cd-border-radius) var(--cd-border-radius);
+
+
+  /* ============================================================= */
+  /* Footer
+  ================================================================ */
+
+  /* Background */
+  --cd-footer-background-color: var(--cd-navbar-background-color);
+
+  /* Link/Text */
+  --cd-footer-text-color: var(--cd-navbar-text-color);
+  --cd-footer-link-color: var(--cd-navbar-link-color);
+  --cd-footer-link-color-hover: var(--cd-navbar-link-color-hover);
+
+
+  /* ============================================================= */
+  /* Link
+  ================================================================ */
+
+  --cd-link-text-color: #82cbff;
+  --cd-link-text-color-hover: var(--cd-secondary-color);
+
+
+  /* ============================================================= */
+  /* HR
+  ================================================================ */
+
+  --cd-hr-border-width: var(--cd-border-width);
+  --cd-hr-border-color: var(--cd-border-color);
+  --cd-hr-border-style: var(--cd-border-style);
+
+
+  /* ============================================================= */
+  /* Pagination
+  ================================================================ */
+
+  /* Background */
+  --cd-pagination-background-color: transparent;
+  --cd-pagination-background-hover: transparent;
+
+  /* Text */
+  --cd-pagination-text-color: var(--cd-faded-text-color);
+  --cd-pagination-text-color-hover: var(--cd-primary-color);
+
+  /* Border */
+  --cd-pagination-border-radius: var(--cd-border-radius);
+  --cd-pagination-border-width: 0;
+  --cd-pagination-border-style: var(--cd-border-style);
+  --cd-pagination-border-color: var(--cd-border-color);
+  --cd-pagination-border-color-hover: var(--cd-primary-color);
+
+
+  /* ============================================================= */
+  /* Cards
+  ================================================================ */
+
+  /* Background */
+  --cd-card-background-color: var(--cd-navbar-background-color);
+  --cd-card-header-background-color: var(--cd-card-background-color);
+
+  /* Text */
+  --cd-card-header-font-family: var(--cd-header-font-family);
+
+  /* Border */
+  --cd-card-border-width: var(--cd-border-width);
+  --cd-card-border-style: var(--cd-border-style);
+  --cd-card-border-color: var(--cd-border-color);
+  --cd-card-border-radius: var(--cd-border-radius);
+
+
+  /* ============================================================= */
+  /* Button
+  ================================================================ */
+
+  /* Background */
+  --cd-button-background-color: rgba(156, 86, 187, 0.52);
+  --cd-button-background-color-hover: #f95dffdb;
+
+  /* Text */
+  --cd-button-text-color: var(--cd-primary-text-color);
+  --cd-button-text-color-hover: #333;
+
+  /* Border */
+  --cd-button-border-width: var(--cd-border-width);
+  --cd-button-border-style: var(--cd-border-style);
+  --cd-button-border-color: var(--cd-button-background-color);
+  --cd-button-border-color-hover: var(--cd-button-background-color-hover);
+  --cd-button-border-radius: var(--cd-border-radius);
+
+
+  /* ============================================================= */
+  /* Input
+  ================================================================ */
+
+  /* Background */
+  --cd-input-background-color: var(--cd-faded-background-color);
+
+  /* Text */
+  --cd-input-text-color: var(--cd-faded-text-color);
+
+  /* Border */
+  --cd-input-border-width: var(--cd-border-width);
+  --cd-input-border-style: var(--cd-border-style);
+  --cd-input-border-color: var(--cd-border-color);
+  --cd-input-border-color-hover: var(--cd-primary-color);
+  --cd-input-border-radius: var(--cd-border-radius);
+  
+
+}
+
+
+/* ============================================================= */
+/* General Page Styles
+/* ============================================================= */
+
+body {
+
+  /* Global Text */
+  color: var(--cd-body-text-color);
+  font-family: var(--cd-body-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Global Background */
+  background-color: var(--cd-body-background-color);
+  background-image: var(--cd-body-background-image);
+  background-position: center;
+  /*background-size: cover;*/
+
+}
+
+
+/* ============================================================= */
+/* Plain Links
+/* ============================================================= */
+
+a,
+a:visited {
+  color: var(--cd-link-text-color);
+  transition: color .2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--cd-link-text-color-hover);
+  text-decoration: none;
+}
+
+/* ============================================================= */
+/* Navbar
+/* ============================================================= */
+.navbar {
+  background: var(--cd-navbar-background-color);
+  font-family: var(--cd-navbar-font-family) !important;
+  z-index: 2000;
+}
+
+.navbar .navbar-brand {
+  color: var(--cd-navbar-brand-color) !important;
+  font-size: 2rem;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: var(--cd-navbar-brand-color-hover) !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--cd-navbar-link-color) !important;
+  transition: 0.8s;
+  font-size: 1.2rem;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: var(--cd-navbar-link-color-hover) !important;
+  transition: 0.8s;
+}
+
+.navbar .navbar-toggler {
+  color: var(--cd-navbar-link-color) !important;
+  border: none !important;
+}
+
+.navbar .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-link-icon {
+  font-size: .5rem;
+  margin-left: .25rem;
+}
+
+/* This is for the Custom Scaling Image at the top of the page */
+.navbar-brand img {
+  max-width: 370px;
+  width: 50%;
+  top: 0px;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		margin-top: 6%;
+	}
+}
+@media (max-width:510px){
+	.navbar-brand img {
+		margin-top: 10%;
+	}
+	.navbar-nav {
+		margin-top: 12px;
+		background-color: var(--cd-card-background-color) !important;
+		padding-left: 20px;
+	}
+}
+
+/* ============================================================= */
+/* Dropdowns
+/* This is for navbar dropdowns only
+/* ============================================================= */
+
+.navbar .dropdown-menu {
+  color: var(--cd-navbar-dropdown-link-color) !important;
+  background: var(--cd-navbar-dropdown-background-color) !important;
+  border-radius: var(--cd-navbar-dropdown-border-radius) !important;
+  border: none;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block !important
+}
+
+.navbar .dropdown-divider {
+  border-top: 1px solid var(--cd-navbar-dropdown-divider) !important;
+}
+
+.navbar .dropdown-item,
+.navbar .dropdown-item-text {
+  color: var(--cd-navbar-dropdown-link-color) !important;
+  transition: color .2s ease, background .2s ease;
+}
+
+.navbar .dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+  color: var(--cd-navbar-dropdown-link-color-hover) !important;
+  background-color: var(--cd-navbar-dropdown-background-hover) !important;
+}
+
+.navbar .dropdown-header {
+  color: var(--cd-navbar-dropdown-link-color-hover) !important;
+}
+
+
+/* ============================================================= */
+/* Footer
+/* ============================================================= */
+
+.footer {
+  background: var(--cd-footer-background-color) !important;
+  color: var(--cd-footer-text-color) !important;
+	padding: 0 !important;
+}
+.footer p {
+	margin-bottom: -0.3rem !important;
+}
+
+.footer a,
+.footer a:visited {
+  color: var(--cd-footer-link-color) !important;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--cd-footer-link-color-hover) !important;
+}
+
+
+/* ============================================================= */
+/* Pagination
+/* ============================================================= */
+
+.page-link {
+  transition: color .2s ease, background .2s ease, border .2s ease;
+  border-width: var(--cd-pagination-border-width) !important;
+  border-style: var(--cd-pagination-border-style) !important;
+}
+
+.page-link,
+.page-item.disabled .page-link {
+  color: var(--cd-pagination-text-color) !important;
+  background-color: var(--cd-pagination-background-color) !important;
+  border-color: var(--cd-pagination-border-color) !important;
+}
+
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus,
+.page-link:active {
+  color: var(--cd-pagination-text-color-hover) !important;
+  background-color: var(--cd-pagination-background-hover) !important;
+  border-color: var(--cd-pagination-border-color-hover) !important;
+}
+
+/* Keeps users from accidentally highlighting */
+.page-link {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Fixes my jank nav/pagination hybrid */
+.nav .pagination .page-item:first-child .page-link {
+  border-radius: 0 !important;
+  border-left: 0 !important;
+}
+
+.nav .pagination .page-item:last-child .page-link {
+  border-radius: 0 !important
+}
+
+.nav .page-item:first-child .page-link {
+  border-radius: var(--cd-pagination-border-radius) 0 0 var(--cd-pagination-border-radius) !important;
+}
+
+.nav .page-item:last-child .page-link {
+  border-radius: 0 var(--cd-pagination-border-radius) var(--cd-pagination-border-radius) 0 !important
+}
+
+
+/* ============================================================= */
+/* Multi Select Fixes
+/* ============================================================= */
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-menu {
+  border-radius: var(--cd-border-radius) !important;
+  background-color: var(--cd-faded-background-color) !important;
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-item {
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item.selected {
+  background-color: var(--cd-primary-color) !important;
+  color: var(--cd-primary-text-color) !important;
+}
+
+
+/* ============================================================= */
+/* Card
+/* ============================================================= */
+
+.card {
+  background: var(--cd-card-background-color) !important;
+  border-width: var(--cd-card-border-width) !important;
+  border-style: var(--cd-card-border-style) !important;
+  border-color: var(--cd-card-border-color) !important;
+  border-radius: var(--cd-border-radius) !important;
+}
+
+.card-header {
+  background-color: var(--cd-card-header-background-color) !important;
+  border-bottom-color: var(--cd-card-border-color) !important;
+  border-bottom-width: var(--cd-card-border-width) !important;
+  border-bottom-style: var(--cd-card-border-style) !important;
+  font-family: var(--cd-card-header-font-family) !important;
+  border-radius: calc(var(--cd-border-radius) - 1px) calc(var(--cd-border-radius) - 1px) 0 0 !important;
+}
+
+.card-footer {
+  background-color: var(--cd-card-header-background-color) !important;
+  border-top-color: var(--cd-card-border-color) !important;
+  border-top-width: var(--cd-card-border-width) !important;
+  border-top-style: var(--cd-card-border-style) !important;
+  font-family: var(--cd-card-header-font-family) !important;
+  border-radius: 0 0  calc(var(--cd-border-radius) - 1px) calc(var(--cd-border-radius) - 1px) !important;
+}
+
+.text-secondary {
+	color: #d185ffcf !important;
+}
+
+/* ============================================================= */
+/* Buttons & Badges
+/* ============================================================= */
+
+.btn {
+  border-style: var(--cd-button-border-style) !important;
+  border-width: var(--cd-button-border-width) !important;
+  border-radius: var(--cd-button-border-radius) !important;
+}
+
+.btn.btn-primary,
+.badge.badge-primary {
+  color: var(--cd-button-text-color) !important;
+  background-color: var(--cd-button-background-color) !important;
+  border-color: var(--cd-button-border-color) !important;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+a.badge.badge-primary:hover,
+a.badge.badge-primary:focus,
+a.badge.badge-primary:active {
+  color: var(--cd-button-text-color-hover) !important;
+  border-color: var(--cd-button-border-color-hover) !important;
+  background-color: var(--cd-button-background-color-hover) !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-secondary {
+	color: #d185ffcf !important;
+	background: linear-gradient(-45deg, #092948d4, #0c0948ad, #2d0948b0, #480944b0) fixed !important;
+    border-width: var(--cd-card-border-width) !important;
+    border-style: var(--cd-card-border-style) !important;
+    border-color: var(--cd-card-border-color) !important;
+}
+
+/* ============================================================= */
+/* Input
+/* ============================================================= */
+
+.form-control {
+  background-color: var(--cd-input-background-color) !important;
+  color: var(--cd-input-text-color) !important;
+  border-width: var(--cd-input-border-width) !important;
+  border-style: var(--cd-input-border-style) !important;
+  border-color: var(--cd-input-border-color) !important;
+  border-radius: var(--cd-input-border-radius) !important;
+}
+
+.form-control:focus,
+.form-control:active {
+  background-color: var(--cd-input-background-color) !important;
+  border-color: var(--cd-input-border-color-hover) !important;
+}
+
+option {
+	background-color: rgb(63 4 95) !important;
+	border-width: var(--cd-input-border-width) !important;
+    border-style: var(--cd-input-border-style) !important;
+    border-color: var(--cd-input-border-color) !important;
+}
+
+/* ============================================================= */
+/* Scrollbar
+/* ============================================================= */
+
+@media (min-width: 992px) {
+  body::-webkit-scrollbar-track {
+    background-color: var(--cd-faded-background-color);
+    border-width: 0px !important;
+  }
+
+  body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--cd-primary-color);
+  }
+
+  body::-webkit-scrollbar-corner,
+  body::-webkit-resizer {
+    background-color: var(--cd-border-color);
+  }
+}
+
+
+/* ============================================================= */
+/* Misc
+/* ============================================================= */
+
+.text-primary, span, b {
+  color: var(--cd-link-text-color);
+}
+
+.card-body {
+	padding:0;
+}
+
+.bg-faded {
+  background-color: var(--cd-faded-background-color) !important;
+}
+
+.bg-reset {
+  background-color: var(--cd-content-background-color) !important;
+}
+
+.text-muted {
+  color: var(--cd-faded-text-color) !important;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: var(--cd-navbar-font-family) !important;
+}
+
+hr {
+  border-top-color: var(--cd-hr-border-color) !important;
+  border-top-width: var(--cd-hr-border-width) !important;
+  border-top-style: var(--cd-hr-border-style) !important;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.img-thumbnail {
+  border-radius:  var(--cd-border-radius) !important;
+  border-color: var(--cd-border-color) !important;
+}
+
+/* Fix any border radiuses that were messed from before */
+.rounded {
+  border-radius: var(--cd-border-radius) !important
+}
+
+.rounded-circle {
+  border-radius: 100%;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+.staff-list {
+	flex-direction: column;
+}
+
+#charadex-filters {
+	justify-content: space-between;
+}
+#charadex-folders, .designs-list, .charadex-list {
+	justify-content: center;
+}
+@media (max-width:510px){
+	.index-row {
+		flex-direction: column;
+	}
+	#event-gallery {
+		margin-bottom: 15px;
+	}
+
+	.staff-list {
+		flex-direction: row;
+  	  justify-content: space-evenly;
+	}
+}
+.planet-img {
+    border-radius: 15px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 3% !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.credit-span {
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    margin-bottom: -10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+/* ============================================================= */
+/* Loading
+/* ============================================================= */
+
+/* Fades container in on load so its not as jarring */
+.softload {
+  opacity: 0;
+}
+
+.softload.active {
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+/* Fades container in on load so its not as jarring */
+.hardload {
+  opacity: 0;
+}
+
+.hardload.active {
+  opacity: 1;
+  transition: opacity .1s ease;
+}
+
+/* Specifically for the body */
+#charadex-body {
+  display: none;
+}
+
+#charadex-body.active {
+  display: block;
+}
+
+
+/* ============================================================= */
+/* Chee's Tweaks
+/* ============================================================= */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-container {
+  min-height: calc(100vh - 105px);
+  padding: 1rem;
+  -ml-flex: 1 1 auto !important;
+  flex: 1 1 auto !important;
+}
+
+@media (min-width: 768px) {
+  #main-container {
+    padding: 5rem 1.5rem;
+  }
+}
+
+/* Remove ugly box shadow */
+button:focus,
+.page-link:focus,
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove margin from last paragraphs */
+p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Small container for more compact view */
+.container {
+  max-width: 1130px !important;
+}
+
+/* ============================================================= */
+/* Custom Classes
+/* ============================================================= */
+
+/* Prevents awkward load in stutter */
+#charadex-gallery .list .card-body {
+  min-height: calc(200px + 2.5rem);
+}
+
+#charadex-gallery .list .card-body img {
+  max-height: 200px;
+}
+
+.cd-gallery-card {
+  min-height: calc(175px + 2.5rem);
+}
+
+.cd-gallery-card > img {
+  max-height: 175px !important;
+}
+
+.cd-profile-image-container > img {
+  max-height: 31em;
+}
+
+/* Traits */
+.cd-traits-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Prompts */
+.cd-prompt-background {
+  background-position: center;
+  background-size: cover;
+  min-height: 150px;
+}
+
+/* Makes sure your text formatting is preserved from the sheet */
+/* Best for large areas like notes */
+.cd-text-pre {
+  white-space: break-spaces;
+}
+
+/* For the hero image in the index */
+.cd-hero-title {
+  color: var(--cd-primary-color);
+  background-color: var(--cd-faded-background-color);
+  border-radius: var(--cd-border-radius);
+  font-family: var(--cd-header-font-family);
+  display: flex;
+  padding: 1.5rem;
+  min-height: 250px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .cd-hero-title {
+    letter-spacing: 2px;
+    font-size: 5rem;
+  }
+}
+
+.cd-hero-title .m-auto {
+filter: drop-shadow(2px 4px 6px black);
+    text-align: center;
+}
+
+
+
+/* ============================================================= */
+/* Type
+/* ============================================================= */
+
+.badge-currency {
+  background-color: var(--cd-type-currency-bg);
+  color: var(--cd-type-currency-txt);
+}
+
+.badge-konpeito {
+  background-color: var(--cd-type-konpeito-bg);
+  color: var(--cd-type-konpeito-txt);
+}
+
+.badge-othercandy {
+  background-color: var(--cd-type-othercandy-bg);
+  color: var(--cd-type-othercandy-txt);
+}
+
+.badge-ingredient {
+  background-color: var(--cd-type-ingredient-bg);
+  color: var(--cd-type-ingredient-txt);
+}
+
+.badge-misc {
+  background-color: var(--cd-type-misc-bg);
+  color: var(--cd-type-misc-txt);
+}
+
+
+/* ============================================================= */
+/* Rarity
+/* ============================================================= */
+
+.badge-common, .badge-ascendedcommon {
+  background-color: var(--cd-rarity-common-bg);
+  color: var(--cd-rarity-common-txt);
+}
+
+.badge-uncommon, .badge-ascendeduncommon {
+  background-color: var(--cd-rarity-uncommon-bg);
+  color: var(--cd-rarity-uncommon-txt);
+}
+
+.badge-rare, .badge-ascendedrare {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
+}
+
+.badge-mythic, .badge-ascendedmythic {
+  background-color: var(--cd-rarity-mythic-bg);
+  color: var(--cd-rarity-mythic-txt);
+}
+
+.badge-ascended, .badge-ascended-cation, .badge-ascended-anion {
+  background-color: var(--cd-rarity-ascended-bg);
+  color: var(--cd-rarity-ascended-txt);
+}
+
+.badge-seasonal-alignmenttide {
+  background-color: var(--cd-rarity-seasonal-alignmenttide-bg);
+  color: var(--cd-rarity-seasonal-alignmenttide-txt);
+}
+
+.badge-seasonal-bloomfaire {
+  background-color: var(--cd-rarity-seasonal-bloomfaire-bg);
+  color: var(--cd-rarity-seasonal-bloomfaire-txt);
+}
+
+.badge-seasonal-universalgala {
+  background-color: var(--cd-rarity-seasonal-universalgala-bg);
+  color: var(--cd-rarity-seasonal-universalgala-txt);
+}
+
+.badge-seasonal-bonbonival {
+  background-color: var(--cd-rarity-seasonal-bonbonival-bg);
+  color: var(--cd-rarity-seasonal-bonbonival-txt);
+}
+
+/* ============================================================= */
+/* Cute ML Image Code
+/* ============================================================= */
+.ml-title-button {
+  width: 60%;
+  margin-bottom: -225px;
+  position: relative;
+  text-align: right;
+  left: 38%;
+}
+.image-tab {
+  border-radius: 50%;
+    background: url('https://sbcode.net/topoearth/downloads/moon_texture.5400x2700.jpg');
+    background-size: cover;
+  min-width: 15em;
+  max-width: 31em;
+  min-height: 15em;
+  max-height: 31em;
+  align-content: center;
+  margin-bottom: -200px;
+  margin-top: -62px;
+  width: 61%;
+  z-index: 3;
+  overflow: hidden;
+}
+.image-tab-alt {
+	background: url('https://newsreel.com.au/wp-content/uploads/2026/04/Moon-Surface.jpg') !important;
+}
+.image-tab .cd-profile-image-container {
+    max-width: 31em;
+    min-height: 15em;
+    max-height: 31em;
+    align-content: center;
+}
+.image-tab-align {
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+.ml-image-tabs {
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  margin-bottom: 78px !important;
+}
+@media (max-width: 555px) {
+  .ml-title-button h3{
+    font-size: 1rem !important;
+  }
+  .ml-title-button h5{
+    font-size: 0.85rem !important;
+  }
+  .ml-image-tabs {
+    left: -27px;
+    padding-left: 25px !important;
+	max-height: 14em;
+  }
+	.species-title {
+	margin-top: 75px;
+	}
+	.image-containter {
+	margin-top: 40px;
+	}
+   .cd-profile-image-container > img {
+	max-height: 14em;
+	}
+    .ml-title-button {
+    width: 100%;
+    position: relative;
+    text-align: right;
+    left: 0;
+	top: -95px;
+  }
+	#profile-tabs {
+    margin-bottom: -15px !important;
+	}
+}
+
+
+/* ============================================================= */
+/* Modal Gallery Images
+/* ============================================================= */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+/* Modal content (image) */
+.modal-content {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: zoomIn 0.5s;
+  background-color: transparent;
+}
+
+.caption{
+	color: transparent;
+}
+
+@keyframes zoomIn {
+  from {transform: scale(0.6);}
+  to {transform: scale(1);}
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
