@@ -16,9 +16,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "testgummi",
-  url: "https://aferael.github.io/testgummi/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "Reaches of Space",
+  url: "https://catmiint.github.io/reachesofspace",
+  description: `Gummisaurs are a 18+ combined Humanoid/Feral Closed Species owned & concepted by camtiint.`
 }
 
   
@@ -28,7 +28,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1vep4kZFHW8Ldbc5x1eqbRIoidhkOrzGAubPNcMpEbE4",
+  id: "1g_zPog6yEcclgrDD0sJQSnZlu1l4gWxyyoOuUVMm2cQ",
 
   pages: {
     masterlist:    "masterlist",
