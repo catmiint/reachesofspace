@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- ----------------------------------------------------------------- -->
+  <!-- About Your Site                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+<link rel="shortcut icon" type="image/png" href="../assets/favicon.png" />
+    <title>The Pleiadic System ★ Reaches of Space</title>
+    <meta property="title" content="Reaches of Space" />
+    <meta property="type" content="website" />
+    <meta property="url" content="https://catmiint.github.io/reachesofspace" />
+    <meta property="image" content="../assets/meta.png" />
+    <meta name="description" content="Gummisaurs are a 18+ combined Humanoid/Feral Closed Species owned & concepted by camtiint">
+
+    <!-- No AI scraping directives -->
+    <meta name="robots" content="noai">
+    <meta name="robots" content="noimageai">
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Styles                                                            -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Bootstrap CSS -->
+  <!-- Using Bootstrap 4.5 because its closest to Toyhou.se's current version -->
+  <!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Optional Styles                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="../styles/css/charadex.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
+
+
+</head>
+
+<body id="charadex-body">
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Header
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="header" data-source="includes/header.html"></div>
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Main List
+  <-------------------------------------------------------------------- -->
+  <div class="container" id="main-container">
+  <div class="col-12 card p-4 my-4 shadow"  style="border-radius: 15px;">
+<!-- CONTENT LINK 2 -->
+      <center><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/107538197_VQEP1XY9kBB18A6.png"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/107538197_VQEP1XY9kBB18A6.png" style="float:right;border-radius:15px;margin:5px;margin-left:20px;height: 200px;"></a>
+            <h1>The Pleiadic System</h1>
+            <p>The Pleiadic System exists within a stunning planetary nebula with a central Wolf-Rayet star called Maie being orbited by the white dwarf Oeopolus. Highly luminous with strong, volatile stellar winds, the central star Maie has long been considered to be the bright presence of a mother to the inhabitants of the Pleiadic System, with Oeopolus as her eternal child orbiting in her light. Orbiting the binary stars are three inhabited planets: the terrestrial Quarus, the ringed gas Othetis, and the ice giant Iatune.</p>
+            <p>The trio of planets are closely knit with regular travel between thanks to the inventions of the Er’ix on Quarus.</p>
+	  <a class="btn btn-primary d-block mb1" href="../world.html" style="text-decoration:none; width: 100%;">Back to Database Hub</a></center>
+</div>
+
+<!-- planet start -- NOTE: you gotta change the data-target and the ID or it'll just open your last accordion instead-->
+<div class="row" style="margin:0;">
+  <div class="accordion card col-12 container p-0" id="ACCORDION">
+     						<div class="card border-0  buttondrop">
+<!-- change data-target to match id at future note -->
+							<a class="btn btn-block h-100 border-0" data-toggle="collapse" data-target="#planet1" style="padding-left: 20px; padding-right: 20px;">
+								<button class="col-12 d-flex flex-column align-items-center justify-content-center m-0 p-0 border-0 buttondrop" style="background: transparent;">
+								  <span class="col-12 m-0 p-0 justify-content-between align-items-center">
+<!-- planet name -->
+								    <span style="letter-spacing:1px; font-family:'comic sans'; font-size:28px;">Quarus</span>
+
+									<span class="align-items-center" style="font-size: 10px;"><i class="fa-duotone fa-solid fa-radar fa-xs fa-spin" style="--fa-secondary-opacity: 0.4; font-size: 18px; margin-left: 2px;"></i></span></span>
+								</button>
+							</a>
+						</div>
+<!--- change id here to match data-target at note above --->
+						<div class="collapse" id="planet1" data-parent="#ACCORDION">
+							<div class="border-0  p-0">
+								<div class="card-body my-3" style="text-align:left; font-size:11px;">
+								  
+								  
+<!-- planet credit -->
+              <span class="justify-content-center credit-span"><a href="https://toyhou.se/catmiint">development + design by catmiint</a> </span>
+								  
+								  
+								  <div class="row justify-content-center" style="margin: 10px;">
+								    
+								    
+<!--- planet image ---->
+     <div class="col-md-6 p-4 mx-2 my-4 shadow" > <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/104785303_wv0P3G45NCv8dva.png" class="planet-img" style=" background: url(https://f2.toyhou.se/file/f2-toyhou-se/images/104785303_wv0P3G45NCv8dva.png) no-repeat;"></a>
+       </div>
+
+<div class="col-md-5 p-4 mx-2 my-4 shadow"  style="border-radius: 15px;">
+
+
+<!---- inside content ---->
+									<div class="row">
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planet Type</b> 
+											Terrestrial
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Habitability</b>
+											 Habitable
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Closeness to Sun</b>
+											 ~0.8 AU (Closest)
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Flora + Fauna</b>
+											 Many species of non-sapient megafauna call Quarus their home, including mammalian-like species that prey on the smaller Er’ix. Plant life is diverse, strange, and beautiful due to the volcanic-enriched soils of the planet. Large hardwood trees, however, are rare due to the shifting plate tectonics										</div>
+																				<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Sentient Life</b>
+											 The dominant species of Quarus are a eusocial insectoid-like species of alien called the Er’ix. They are a hyper social society focused around community and hive. Their status as a prey species led them to learn to be clever and rapidly develop technological advancements. 
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Weather</b>
+											 Weather is thankfully mild on Quarus despite the dramatic tides and tectonic activity. The wind is rarely more than a gentle breeze and the weather remains pleasantly warm throughout the year. 
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Geography</b>
+											 The planet is host to volatile plate tectonics that move constantly and drastically. Shifting mountain ranges, volcanoes, and constant earthquakes all mark Quarus as a place of danger and change. The inhabitants have developed their society and infrastructure around the changing landscape. It’s said that if you visit Quarus twice, you’ll see two different planets. 
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Moons</b>
+											 A trio of moons that have dramatic effects on the tides of the planet’s oceans
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Major Imports/Exports</b>
+											 Agricultural products are common thanks to the planet’s rich soil. From grains to cut flowers to medicinal herbs, Quarus has much of their biodiversity to offer other planets. The Er’ix also export their technological advancements, but usually prefer to sell schematics rather than sell manufactured goods due to the difficulties in maintaining a supply chain for such endeavors. 										
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planetary Mythos</b>
+											 The Er’ix are not a superstitious people, so religious and spiritual beliefs are not common on Quarus. They value logic and scientific advancement rather than faith and spiritual development. The Er’ix enjoy stories and mythology that Iatune and Othetis have around their binary star system, but they don’t inherently put belief into those stories.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Magic Capacity/Phenomena</b>
+											 Magic is rare on Quarus for reasons that aren’t quite understood. Whether its the Er’ix lack of belief into magic that leads it to be rarely pursued or a lack of ability in the Er’ix is unknown. Outsiders may even find their magic weakened or completely gone on Quarus at times. Some theories exist that the particular composition of the moons of Quarus create a sort of waxing and waning antimagic field.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Common Gummisaur Traits</b>
+											 The traits Gummisaur may pick up from or mutate around Quarus come in two varieties: sugar-coated gummi with mammalian traits or sour-coated gummi with insectoid traits. Whiskers for sensing vibrations of the planet’s movements are also common, as is plant growth.
+										</div>
+
+<!---- ending the divs here ---->
+
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+    </div>
+        </div>
+        
+<!-- planet start -- NOTE: you gotta change the data-target and the ID or it'll just open your last accordion instead-->
+<div class="row" style="margin:0;margin-top: 10px;">
+  <div class="accordion card col-12 container p-0" id="ACCORDION">
+     						<div class="card border-0  buttondrop">
+<!-- change data-target to match id at future note -->
+							<a class="btn btn-block h-100 border-0" data-toggle="collapse" data-target="#planet2" style="padding-left: 20px; padding-right: 20px;">
+								<button class="col-12 d-flex flex-column align-items-center justify-content-center m-0 p-0 border-0 buttondrop" style="background: transparent;">
+								  <span class="col-12 m-0 p-0 justify-content-between align-items-center">
+<!-- planet name -->
+								    <span style="letter-spacing:1px; font-family:'comic sans'; font-size:28px;">Othetis</span>
+									<span class="align-items-center" style="font-size: 10px;"><i class="fa-duotone fa-solid fa-radar fa-xs fa-spin" style="--fa-secondary-opacity: 0.4; font-size: 18px; margin-left: 2px;"></i></span></span>
+								</button>
+							</a>
+						</div>
+<!--- change id here to match data-target at note above --->
+						<div class="collapse" id="planet2" data-parent="#ACCORDION">
+							<div class="border-0  p-0">
+								<div class="card-body my-3" style="text-align:left; font-size:11px;">
+								  
+<!-- planet credit -->
+              <span class="justify-content-center credit-span"><a href="https://toyhou.se/rageingcupcake">development + design by catmiint</a> </span>
+								  <div class="row justify-content-center" style="margin: 10px;">
+<!--- planet image ---->
+     <div class="col-md-6 p-4 mx-2 my-4 shadow" > <a href="https://i.ibb.co/HDMhmv99/Untitled490-20250731195530.png" class="planet-img" style=" background: url(https://i.ibb.co/HDMhmv99/Untitled490-20250731195530.png) no-repeat;"></a>
+       </div>
+
+<div class="col-md-5 p-4 mx-2 my-4 shadow"  style="border-radius: 15px;">
+
+
+<!---- inside content ---->
+
+	<div class="row">
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planet Type</b>
+											Ringed gas
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Habitability</b>
+											 Habitable to native species or with specialized equipment
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Closeness to Sun</b>
+											 ~0.94 AU
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Flora + Fauna</b>
+											Othetis does have flora and fauna, oddly enough. Most life is hosted within the dense inner layer of its atmosphere, but some plants and animals soar above on wings in the thinner outer atmosphere. There is no ground for plants to root themselves on, and some flora has developed strange defense mechanisms to protect exposed root systems. Plants that shock you with electric currents or mesmerize you to prevent you from getting close are only some of the strange life you will encounter on Othetis. 										
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Sentient Life</b>
+											 Othetis is home to a wide variety of sentient species that draw distinct lines between themselves. Most of these species are “mermaid-like” with no legs and instead tails to help them “swim” through the gaseous atmosphere. There are the octopus-like Reiler, the serpentine Cheh’ar, the hardy Voli, the studious Uv’il and the mischievous Ephra (although outsiders aren’t quite sure the difference between those two visually), and so on and so forth. It’s common to come face-to-face with an alien species you never knew existed on Othetis, as many are small, isolated populations that do little intergalactic travel. The common thread between these species is a respect for persistence—the ability to get up after failure and try again to succeed or fail better. 
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Weather</b>
+											 Weather is mostly wind-based phenomena as the gaseous layers of the atmosphere intermingle and flow. The main risk with weather events on Othetis is being swept up and carried far from where you intend to be. 
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Geography</b>
+											 Othetis has a completely gaseous atmosphere with varying densities, resulting in a core that is denser and thick like water. There is no land, exactly, but there are mineral deposits that will float on various layers of Othetis. The sentient species of Othetis have learned how to build with ultralight materials in order to create floating cities.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Moons</b>
+											Many small moons dot the night skies of Othetis. These small moons are considered shepherd moons that maintain the ring around Othetis’ circumference.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Major Imports/Exports</b>
+										 Drugs. Some medicinal, but mostly recreational. Besides the mesmerist plants, there are some layers of the gas planet where the atmosphere produces a psychedelic effect in non-native lifeforms. There was a period of time where the sentient life of Othetis collected and sold these gases very easily, but it caused great damage to the planet’s atmosphere. The trade of gaseous drugs is much more closely regulated now with careful attention paid to how much is being removed from the planet.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planetary Mythos</b>
+											There are a myriad of cultures amongst Othetis’ inhabitants which results in a myriad of mythos and religions. There is an overarching theme of personifying the planet of Othetis as Maie’s star-crossed lover and Oepolus as their bastard child, though.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Magic Capacity/Phenomena</b>
+											Many of the species of Othetis love magic, particularly divination and fortune-telling. They don’t have any sort of special respect for it like Iatune, though. It’s seen relatively neutrally as just another talent some people have and some people don’t.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Common Gummisaur Traits</b>
+											 Gummisaurs with Othetis as their host planet have a greater tendency to either not have legs or to have wings to glide through the gaseous layers of the planet. Aquatic-like features also mimic many of the sentient species of Othetis, as is the trend of extra eyes. Gummi types that are common include glowing gummi and ethereal gummi.
+										</div>
+<!---- ending the divs here ---->
+
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+    </div>
+        </div>
+        
+<!-- planet start -- NOTE: you gotta change the data-target and the ID or it'll just open your last accordion instead-->
+<div class="row" style="margin:0; margin-top: 10px;">
+  <div class="accordion card col-12 container p-0" id="ACCORDION">
+     						<div class="card border-0  buttondrop">
+<!-- change data-target to match id at future note -->
+							<a class="btn btn-block h-100 border-0" data-toggle="collapse" data-target="#planet3" style="padding-left: 20px; padding-right: 20px;">
+								<button class="col-12 d-flex flex-column align-items-center justify-content-center m-0 p-0 border-0 buttondrop" style="background: transparent;">
+								  <span class="col-12 m-0 p-0 justify-content-between align-items-center">
+<!-- planet name -->
+								    <span style="letter-spacing:1px; font-family:'comic sans'; font-size:28px;">Iatune</span>
+<!-- planet credit -->
+									<span class="align-items-center" style="font-size: 10px;"><i class="fa-duotone fa-solid fa-radar fa-xs fa-spin" style="--fa-secondary-opacity: 0.4; font-size: 18px; margin-left: 2px;"></i></span></span>
+								</button>
+							</a>
+						</div>
+<!--- change id here to match data-target at note above --->
+						<div class="collapse" id="planet3" data-parent="#ACCORDION">
+							<div class="border-0  p-0">
+								<div class="card-body my-3" style="text-align:left; font-size:11px;"> 
+<!-- planet credit -->
+              <span class="justify-content-center credit-span"><a href="https://toyhou.se/Ninisinaa">development + design by catmiint</a> </span>
+								  <div class="row justify-content-center" style="margin: 10px;">
+<!--- planet image ---->
+     <div class="col-md-6 p-4 mx-2 my-4 shadow" > <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/105398098_oDGLcpza1FcTl2M.png" class="planet-img" style=" background: url(https://f2.toyhou.se/file/f2-toyhou-se/images/105398098_oDGLcpza1FcTl2M.png) no-repeat;"></a>
+       </div>
+
+<div class="col-md-5 p-4 mx-2 my-4 shadow"  style="border-radius: 15px;">
+
+
+<!---- inside content ---->
+
+									<div class="row">
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planet Type</b>
+											Terrestrial
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Habitability</b>
+											 Habitable, if you can handle the cold.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Closeness to Sun</b>
+											 ~1.7 AU (Farthest)
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Flora + Fauna</b>
+											 Most flora and fauna is aquatic and found in the frigid waters underneath Iatune’s sheets of ice. While the tundras are bleak and monochrome, the oceans are alive with color. Wondrous sea-life calls Iatune its home, but no sapient aquatic species oddly enough.										
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Sentient Life</b>
+											 The tundra of Iatune is sparsely inhabited with cities cropping up around the geothermal oases. The Agni are a species of large four-armed alien that have mastered their cold landscape. There are minor sentient species smaller in size as well that intermingle in Iatune’s cities, some native to the planet and others not. The Agni are loud, boisterous, and friendly. They open their homes up easily and defend family fiercely.  Their culture is one that places heavy emphasis on physical prowess—sports and other spectacles are a common pass time, and they engage in something akin to Earth’s Olympics on a regular basis.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Weather</b>
+											 Cold, frigid winds with particles of ice shards frequently blow across the planetary surface, as well as peaceful snows and heavy blizzards.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Geography</b>
+											 Iatune is almost entirely a tundra on top of the ice, barren from most notable land formations.Under the ice, however, life blooms, frigid waters kept at bay in some spots by geothermal vents under the surface creating something akin to an oasis
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Moons</b>
+											 A singular, volcanic moon whose presence keeps the liquid on the planet’s surface from being frozen solid. No one lives there.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Major Imports/Exports</b>
+										Aquarium-keeping is a popular Agni hobby, and they are keyed into the trade of exotic animals across space. While importing exotic animals is difficult with their harsh weather conditions, Iatune has found success with sustainably exporting its sealife for other aquarium-lovers to enjoy. Iatune must import most of its foodstuffs to sustain its growing population, but they easily are able to do so thanks to the rich mineral, metal, and salt deposits that can be found.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Planetary Mythos</b>
+											The religious and spiritual beliefs of the Agni are centered around fire, the suns, and light. They see the star Maie as a benevolent life-giving god and Oeopolus as the dutiful but kind child. Stories say that Iatune was once cold and dark without a spark of warmth until Oeopolus convinced his mother to grant light to the Agni.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Magic Capacity/Phenomena</b>
+											Natural magic and shamanism are common abilities within the Agni on Iatune. Magic is viewed positively, as it’s thanks to those with weather and natural magic abilities that the Agni were able to begin to build lives on the planet in the first place by cultivating the areas around geothermal oaises.
+										</div>
+										<div class="col-12 d-flex px-3 py-1" style="width:170px; text-align:right; justify-content:space-between;">
+											<b style="text-align: left;">Common Gummisaur Traits</b>
+											 Many of the Gummisaurs who touch ground in Iatune are found with extra limbs, tails, and horns, as well as eternal fire and lava lamp gummi for warmth. They can also be found having larger builds, excess body fat, and thick tails to help insulate themselves from the cold when out of the geothermal vents.
+										</div>
+<!---- ending the divs here ---->
+
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+    </div>
+        </div>
+
+  </div>
+
+  <!-- --------------------------------------------------------------------
+  <-- Footer
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="footer" data-source="../includes/footer.html"></div>
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- JS                                                                -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- Charadex Script -->
+  <script src="../styles/js/pages/base.js" type="module"></script>
+
+
+</body>
+
+</html>
