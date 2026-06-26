@@ -874,12 +874,12 @@ filter: drop-shadow(2px 4px 6px black);
 /* Type
 /* ============================================================= */
 
-.badge-currency {
+.badge-currency, .badge-character {
   background-color: var(--cd-type-currency-bg);
   color: var(--cd-type-currency-txt);
 }
 
-.badge-konpeito {
+.badge-konpeito, .badge-user {
   background-color: var(--cd-type-konpeito-bg);
   color: var(--cd-type-konpeito-txt);
 }
