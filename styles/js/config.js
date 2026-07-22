@@ -443,7 +443,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['ID', 'Name', 'Owner', 'Designer', 'Artist', 'Subspecies','Basics','Hoard','Gummi','Mutations', 'Status']
+    parameters: ['All','ID', 'Name', 'Owner', 'Designer', 'Artist', 'Subspecies','Basics','Hoard','Gummi','Mutations', 'Status']
   },
 
   prevNext: {
