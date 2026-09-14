@@ -1083,3 +1083,9 @@ filter: drop-shadow(2px 4px 6px black);
   cursor: pointer;
   transition: transform 0.3s;
 }
+
+
+/* NO DUPES!! */
+.no-dupes:nth-child(2n) {
+	display: none;
+}
