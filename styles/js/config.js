@@ -42,7 +42,8 @@ charadex.sheet = {
     staff:         "mods",
     adopts:        "adopts",
     badges:        "badges",
-    events:        "events"
+    events:        "events",
+    collection:    "collection" 
   },
 
   options: {
@@ -57,8 +58,8 @@ charadex.sheet = {
     traitTypes: ['All', 'Basic Traits', 'Hoard', 'Gummi', 'Body Additions', 'Mutation', 'Other'],
     adoptTypes: ['All', 'BTA', 'OTA', 'Raffle'],
     stock: ['All', 'In Stock'],
-    badgeTypes: ['All'],
-    eventCurrent: ['All', 'TRUE', 'FALSE']
+    badgesTypes: ['All', 'Character', 'User'],
+    badgesSource: ['All', 'Event', 'Permanent Prompt', 'Faction Prompt'],
 
   }
 
@@ -175,7 +176,7 @@ charadex.page.badges = {
   sheetPage: charadex.sheet.pages.badges,
   sitePage: 'badges',
   dexSelector: 'charadex',
-  profileProperty: 'badge',
+  profileProperty: 'badges',
 
   sort: {
     toggle: true,
@@ -193,21 +194,106 @@ charadex.page.badges = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.badgeTypes,
+      'Type': charadex.sheet.options.badgesType,
+      'Source': charadex.sheet.options.badgesSource,
     }
   },
 
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.badgesTypes,
+  },
 
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Badge', 'Source']
+    parameters: ['All', 'Badges', 'Source', 'Type']
   },
 
   prevNext: {
     toggle: true,
   },
 
+};
+
+/* Collection
+/* --------------------------------------------------------------- */
+charadex.page.collection = {
+
+  // Dex Set Up
+  sheetPage: charadex.sheet.pages.collection,
+  sitePage: 'collection',
+  dexSelector: 'charadex',
+  profileProperty: 'username',
+
+  // Dex Options
+  sort: {
+    toggle: true,
+    key: "username",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {}
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Username']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+
+  // This is a special config for their Collection, mimicing the inventory.
+  collectionConfig: {
+
+    sheetPage: charadex.sheet.pages.badges,
+    sitePage: 'badges',
+    dexSelector: 'collection',
+    profileProperty: 'badges',
+    profileToggle: false,
+
+    sort: {
+      toggle: true,
+      sortProperty: "badges",
+      order: "asc",
+      parametersKey: 'type', 
+      parameters: charadex.sheet.options.badgesSources
+    },
+
+    search: {
+      toggle: true,
+      filterToggle: false,
+      parameters: ['Badges']
+    },
+
+    filters: {
+      toggle: true,
+      parameters: {
+        'Type': charadex.sheet.options.badgesTypes,
+        'Source': charadex.sheet.options.badgesSource,
+      }
+    },
+  },
 };
 
 
@@ -639,8 +725,24 @@ charadex.page.inventory = {
       profileProperty: 'design',
       profileToggle: false,
 
-    }
+    },
 
+
+        [charadex.sheet.pages.collection]: {
+
+      // This imports the config from the masterlist
+      // So you dont have to repeat yourself
+      ...charadex.page.collection, 
+
+      sheetPage: charadex.sheet.pages.collection,
+      sitePage: 'collection',
+      primaryProperty: 'username',
+      relatedProperty: 'username',
+      dexSelector: 'collection',
+      profileProperty: 'username',
+      profileToggle: false,
+
+    }
   },
 
   
