@@ -176,7 +176,7 @@ charadex.page.badges = {
   sheetPage: charadex.sheet.pages.badges,
   sitePage: 'badges',
   dexSelector: 'charadex',
-  profileProperty: 'badges',
+  profileProperty: 'badge',
 
   sort: {
     toggle: true,
