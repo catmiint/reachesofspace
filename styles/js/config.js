@@ -59,6 +59,7 @@ charadex.sheet = {
     adoptTypes: ['All', 'BTA', 'OTA', 'Raffle'],
     stock: ['All', 'In Stock'],
     badgesTypes: ['All', 'Character', 'User'],
+    badgesSources: ['All', 'Event', 'Permanent Prompt', 'Faction Prompt'],
 
   }
 
@@ -193,7 +194,8 @@ charadex.page.badges = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.badgesType,
+      'Type': charadex.sheet.options.badgesTypes,
+      'Source': charadex.sheet.options.badgesSources,
     }
   },
 
@@ -275,7 +277,7 @@ charadex.page.collection = {
       sortProperty: "badges",
       order: "asc",
       parametersKey: 'type', 
-      parameters: charadex.sheet.options.badgesType,
+      parameters: charadex.sheet.options.badgesTypes,
     },
 
     search: {
@@ -288,6 +290,7 @@ charadex.page.collection = {
       toggle: true,
       parameters: {
         'Type': charadex.sheet.options.badgesTypes,
+        'Source': charadex.sheet.options.badgesSources,
       }
     },
   },
