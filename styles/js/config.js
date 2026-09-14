@@ -18,7 +18,7 @@ let charadex = {};
 charadex.site = {
   title: "Reaches of Space",
   url: "https://catmiint.github.io/reachesofspace",
-  description: `Gummisaurs are a 18+ combined Humanoid/Feral Closed Species owned & concepted by camtiint.`
+  description: `Gummisaurs are a 18+ combined Humanoid/Feral Closed Species owned & concepted by catmiint.`
 }
 
   
@@ -59,7 +59,7 @@ charadex.sheet = {
     adoptTypes: ['All', 'BTA', 'OTA', 'Raffle'],
     stock: ['All', 'In Stock'],
     badgesTypes: ['All', 'Character', 'User'],
-    badgesSource: ['All', 'Event', 'Permanent Prompt', 'Faction Prompt'],
+    badgesSource: ['All', 'Event', 'Permanent Prompt', 'Faction Prompt']
 
   }
 
@@ -176,7 +176,7 @@ charadex.page.badges = {
   sheetPage: charadex.sheet.pages.badges,
   sitePage: 'badges',
   dexSelector: 'charadex',
-  profileProperty: 'badge',
+  profileProperty: 'badges',
 
   sort: {
     toggle: true,
