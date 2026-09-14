@@ -3,7 +3,6 @@
 ======================================================================= */
 import { charadex } from '../charadex.js';
 
-
 /* ==================================================================== */
 /* Load
 ======================================================================= */
@@ -25,8 +24,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           await charadex.manageData.inventoryFix(profile),
           'type',
           charadex.url.getPageUrl('items')
-        )
-
+          )
+        
         // Designs
         if (charadex.tools.checkArray(profile.masterlist)) {
           let designs = await charadex.initialize.page(
@@ -34,7 +33,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             charadex.page.inventory.relatedData['masterlist'],
           );
         }
-
+                // Designs
+        if (charadex.tools.checkArray(profile.collection)) {
+          let collection = await import('./collection.js')
+        }
+        
         // Logs
         if (charadex.tools.checkArray(profile.inventorylog)) {
           let logs = await charadex.initialize.page(
