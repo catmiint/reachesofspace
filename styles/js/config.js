@@ -48,7 +48,7 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
+    designTypes: ['All', 'NPC', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     mlRarity: ['All', 'Common', 'Uncommon', 'Rare', 'Mythic', 'Ascended Common', 'Ascended Uncommon', 'Ascended Rare', 'Ascended Mythic'],
     itemRarity: ['All', 'Common', 'Uncommon', 'Rare', 'Mythic', 'Ascended'],
