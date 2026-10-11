@@ -897,6 +897,11 @@ filter: drop-shadow(2px 4px 6px black);
   color: var(--cd-type-ingredient-txt);
 }
 
+.badge-paintedtruffle {
+  background-color: var(--cd-type-paintedtruffle-bg);
+  color: var(--cd-type-paintedtruffle-txt);
+}
+
 .badge-misc {
   background-color: var(--cd-type-misc-bg);
   color: var(--cd-type-misc-txt);
