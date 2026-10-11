@@ -54,7 +54,7 @@ charadex.sheet = {
     itemRarity: ['All', 'Common', 'Uncommon', 'Rare', 'Mythic', 'Ascended'],
     traitRarity: ['All', 'Common', 'Uncommon', 'Rare', 'Mythic', 'Seasonal - Alignmenttide', 'Seasonal - Bloomfaire', 'Seasonal - Universal Gala', 'Seasonal - Bon Bonival', 'Ascended', 'Ascended - Anion', 'Ascended - Cation'],
     species: ['All', 'Gummisaur', 'Gummisaur CB', 'Gummisaur? (Cation)', 'Gummisaur? (Anion)'],
-    itemTypes: ['All', 'Currency', 'Konpeito', 'Other Candy', 'Ingredient', 'Misc'],
+    itemTypes: ['All', 'Currency', 'Konpeito', 'Other Candy', 'Ingredient', 'Painted Truffle', 'Misc'],
     traitTypes: ['All', 'Basic Traits', 'Hoard', 'Gummi', 'Body Additions', 'Mutation', 'Other'],
     adoptTypes: ['All', 'BTA', 'OTA', 'Raffle'],
     stock: ['All', 'In Stock'],
