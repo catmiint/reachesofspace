@@ -111,6 +111,9 @@ body {
   --cd-type-ingredient-bg: #6492F2;
   --cd-type-ingredient-txt: var(--cd-type-currency-txt);
 
+  --cd-type-paintedtruffle-bg: #612C2C;
+  --cd-type-paintedtruffle-txt: var(--cd-type-currency-txt);
+
   --cd-type-misc-bg: #FEBA00;
   --cd-type-misc-txt: var(--cd-type-currency-txt);
 
